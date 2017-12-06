@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Class160202</string>
+
+    <string-array name="myArray">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+
+</resources>

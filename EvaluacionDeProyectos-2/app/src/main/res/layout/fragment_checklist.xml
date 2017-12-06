@@ -1,0 +1,511 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.andrestorresb.evaluaciondeproyectos.Checklist">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Checklist"
+            android:id="@+id/textView16"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Strategy/alignment"
+            android:id="@+id/textView17"
+            android:layout_below="@+id/GuardarChecklist"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What specific organization strategy does this project align with?"
+            android:id="@+id/textView18"
+            android:layout_below="@+id/textView17"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_below="@+id/textView18"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Driver"
+            android:id="@+id/textView19"
+            android:layout_below="@+id/editText"
+            android:layout_alignParentStart="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    What business problem does the project solve?"
+            android:id="@+id/textView20"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView19"
+            android:layout_alignParentLeft="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView20"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Sponsorship"
+            android:id="@+id/textView21"
+            android:layout_below="@+id/editText2"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who is the project sponsor?"
+            android:id="@+id/textView22"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView21"
+            android:layout_alignParentLeft="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Risk"
+            android:id="@+id/textView23"
+            android:layout_below="@+id/editText3"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    What is the impact of not doing this project?"
+            android:id="@+id/textView24"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView23"
+            android:layout_alignParentLeft="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView24"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Risk"
+            android:id="@+id/textView25"
+            android:layout_below="@+id/editText4"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  What is the project risk to our organization?"
+            android:id="@+id/textView26"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView25"
+            android:layout_alignParentLeft="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView26"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Risk"
+            android:id="@+id/textView27"
+            android:layout_below="@+id/editText5"
+            android:layout_alignEnd="@+id/textView21" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Where does the proposed project fit in our risk profile?"
+            android:id="@+id/textView28"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView27"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+            android:layout_below="@+id/textView28"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Benefits, value"
+            android:id="@+id/textView30"
+            android:layout_below="@+id/editText6"
+            android:layout_alignEnd="@+id/textView21" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the value of the project organization?"
+            android:id="@+id/textView31"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView30"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex32"
+            android:layout_below="@+id/textView31"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Benefits, value"
+            android:id="@+id/textView33"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/editTex32" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When will the project shows result?"
+            android:id="@+id/textView34"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView33"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex35"
+            android:layout_below="@+id/textView34"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Objectives"
+            android:id="@+id/textView36"
+            android:layout_below="@+id/editTex35"
+            android:layout_alignEnd="@+id/textView21" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What are the project objectives?"
+            android:id="@+id/textView37"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView36"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex38"
+            android:layout_below="@+id/textView37"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Organization Culture"
+            android:id="@+id/textView39"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editTex38" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is our organization culture right for this type of project?"
+            android:id="@+id/textView40"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView39"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex41"
+            android:layout_below="@+id/textView40"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Resources"
+            android:id="@+id/textView45"
+            android:layout_below="@+id/editTex41"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Will internal resources be available for this project?"
+            android:id="@+id/textView46"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView45"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex47"
+            android:layout_below="@+id/textView46"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Approach"
+            android:id="@+id/textView48"
+            android:layout_below="@+id/editTex47"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Will we build or buy?"
+            android:id="@+id/textView49"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView48"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex50"
+            android:layout_below="@+id/textView49"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Schedule"
+            android:id="@+id/textView51"
+            android:layout_below="@+id/editTex50"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule"
+            android:id="@+id/textView52"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView51"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex53"
+            android:layout_below="@+id/textView52"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Schedule"
+            android:id="@+id/textView54"
+            android:layout_below="@+id/editTex53"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is the timeline realistic?"
+            android:id="@+id/textView55"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView54"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex56"
+            android:layout_below="@+id/textView55"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Training/resources"
+            android:id="@+id/textView57"
+            android:layout_below="@+id/editTex56"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Will staff training be required?"
+            android:id="@+id/textView58"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView57"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex59"
+            android:layout_below="@+id/textView58"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Finance/portfolio"
+            android:id="@+id/textView60"
+            android:layout_below="@+id/editTex59"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the estimated cost of the project?"
+            android:id="@+id/textView61"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView60"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex62"
+            android:layout_below="@+id/textView61"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Portfolio"
+            android:id="@+id/textView63"
+            android:layout_below="@+id/editTex62"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is this a new initiative or path of an existing initiative?"
+            android:id="@+id/textView64"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView63"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex65"
+            android:layout_below="@+id/textView64"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Portfolio"
+            android:id="@+id/textView66"
+            android:layout_below="@+id/editTex65"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How does this project interact with current projects?"
+            android:id="@+id/textView67"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView66"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex68"
+            android:layout_below="@+id/textView67"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Technology"
+            android:id="@+id/textView69"
+            android:layout_below="@+id/editTex68"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is the technology available or new?"
+            android:id="@+id/textView70"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView69"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTex71"
+            android:layout_below="@+id/textView70"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="GuardarChecklist"
+            android:id="@+id/GuardarChecklist"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</ScrollView>

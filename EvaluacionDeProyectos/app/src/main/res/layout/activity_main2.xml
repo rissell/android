@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.andrestorresb.evaluaciondeproyectos.Main2Activity">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="Payback Period"
+        android:id="@+id/aFragPayback"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:textSize="10dp"
+        android:onClick="aPayback" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="NPV"
+        android:id="@+id/aFragNVP"
+        android:layout_alignTop="@+id/aFragPayback"
+        android:layout_toEndOf="@+id/aFragPayback"
+        android:textSize="10dp"
+        android:onClick="aNVP" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="Checklist"
+        android:id="@+id/aFragChecklist"
+        android:layout_alignTop="@+id/aFragNVP"
+        android:layout_toEndOf="@+id/aFragNVP"
+        android:textSize="10dp"
+        android:onClick="aChecklist" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="Project Screening Matrix"
+        android:id="@+id/aFragExcel"
+        android:layout_alignBottom="@+id/aFragChecklist"
+        android:layout_toEndOf="@+id/aFragChecklist"
+        android:textSize="8dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/aFragPayback"
+        android:layout_alignParentStart="true"
+        android:id="@+id/fragConteiner"></RelativeLayout>
+
+</RelativeLayout>
